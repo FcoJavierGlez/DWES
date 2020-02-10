@@ -1,0 +1,28 @@
+html {
+	background-color: papayawhip;
+}
+nav {
+	background-color: darkgray;
+	background-attachment: inherit;
+	background-position: center;
+}
+body {
+	background: url(../images/fondomezquita.jpg) no-repeat right bottom scroll;
+}
+section {
+	background: lightgrey;
+	width: 700px;
+	border: 10px solid darkred;
+	padding: 50px;
+	margin: 50px 200px 50px 250px;
+}
+
+p {
+	text-align: justify
+}
+footer {
+	background-color: darkgrey;
+	margin: 50px left;
+	margin-right: inherit;
+	width: 500px;
+}

@@ -1,0 +1,15 @@
+<?php
+    echo '<article>
+        <h2>Patios de Córdoba</h2>
+        
+        <img src="images/patios.jpg" alt="Dotografía de un patio típico de la ciudad de Córdoba">
+        <p>El Festival de los Patios Cordobeses es un concurso de patios de <cite>Córdoba (España)</cite> celebrado, generalmente, durante la segunda y tercera semana del mes de mayo. Los participantes abren, de modo gratuito, sus patios para que puedan ser visitados dentro del horario establecido para tal fin. En los últimos años, los patios en concursos se señalan con macetas de setos que se colocan flanqueando las puertas, de modo que puedan ser identificados de manera clara.</p>
+        <p>A fin de incentivar el festival y conservar la arquitectura típica de la ciudad, se admiten a concurso patios de reciente construcción, estableciéndose dos categoría: arquitectura antigua y arquitectura moderna. En los últimos años, hasta 50 patios han participado en el certamen. Además, el festival se completa con un programa educativo organizado por el Ayuntamiento de Córdoba cuyo objetivo es dar a conocer a los estudiantes la arquitectura y el patrimonio, así como promover el respecto por el mismo.</p>
+        <p>Además, la fiesta se completa con una verbena en San Basilio: la asociación de vecinos del barrio pone una barra en un espacio junto a la <a href="https://es.wikipedia.org/wiki/Torre_de_Bel%C3%A9n_(C%C3%B3rdoba)" target="_blank">torre de Belén</a>, y los bares de la calle San Basilio contribuyen con música y venta de bebidas a los grupos de cordobeses y turistas que se reúnen allí.</p>
+    </article>
+    <article>
+        <h2>Origen de la Fiesta de los Patios Cordobeses</h2>
+        <p>Aunque históricamente se ha creído que el primer concurso de patios que hubo fue el del año 1933, se tiene constancia de que ya en el año 1921 y en el año 1927 entre los patios cordobeses se celebraron concursos. Sin embargo, no fue hasta el año 1933 cuando comienzan a popularizarse los mismos, presentándose al concurso 16 patios diferentes de la ciudad, con premios cuantiosos para la época.</p>
+        <p>Tras el periodo de la <a href="https://es.wikipedia.org/wiki/Guerra_civil_espa%C3%B1ola" target="_blank">Guerra Civil</a>, en el año 1939 se incluye como un acto más de la feria; se vuelve en el año 1943 a comentar por la prensa local la necesidad de volver al tradicional Concurso de Patios. Para ello se hace una enumeración de algunos que en aquella época estaban adornados y eran visitados sin que hubiera apoyo y concurso por parte del Ayuntamiento. Eran los siguientes: calle Leiva Aguilar 10, calle Buen Pastor, calle de los Ángeles, Casa de las Bulas esquina a calle Judíos. Fue en el año 1944 la primera constatación de posguerra en la cual se convoca concurso. En el año 1945 y 1946 hay concurso pero no se datan los premios. Se consolida definitivamente el concurso en el año 1947.</p>                    
+    </article>';
+?>

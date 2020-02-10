@@ -1,0 +1,11 @@
+.error {
+    text-decoration-color: red;
+}
+
+.correcto {
+    background-color:rgba(0,255,0,0.5)
+}
+
+.incorrecto {
+    background-color:rgba(255,0,0,0.5)
+}

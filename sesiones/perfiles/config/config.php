@@ -1,0 +1,68 @@
+<?php
+    $usuarios = array(
+        array('nombre'=>'María',
+            'user'=>'user1',
+            'psw'=>'psw1',
+            'perfil'=>'Alumno'),
+        array('nombre'=>'Fco Javier',
+            'user'=>'user2',
+            'psw'=>'psw2',
+            'perfil'=>'Profesor'),
+        array('nombre'=>'Miguel',
+            'user'=>'user3',
+            'psw'=>'psw3',
+            'perfil'=>'Administrador')
+    );
+
+    $opcionesMenu = array(
+        'Invitado'=>array(
+            array(
+                'msg'=>'opc1_pub',
+                'script'=>'index'
+            )
+        ),
+        'Alumno'=>array(
+            array(
+                'msg'=>'opc1_pub',
+                'script'=>'index'
+            ),
+            array(
+                'msg'=>'opc2_alu',
+                'script'=>'Alumno'
+            )
+        ),
+        'Profesor'=>array(
+            array(
+                'msg'=>'opc1_pub',
+                'script'=>'index'
+            ),
+            array(
+                'msg'=>'opc2_alu',
+                'script'=>'Alumno'
+            ),
+            array(
+                'msg'=>'opc3_pro',
+                'script'=>'Profesor'
+            )
+        ),
+        'Administrador'=>array(
+            array(
+                'msg'=>'opc1_pub',
+                'script'=>'index'
+            ),
+            array(
+                'msg'=>'opc2_alu',
+                'script'=>'Alumno'
+            ),
+            array(
+                'msg'=>'opc3_pro',
+                'script'=>'Profesor'
+            ),
+            array(
+                'msg'=>'opc4_pro',
+                'script'=>'Administrador'
+            )
+        )
+    );
+
+?>

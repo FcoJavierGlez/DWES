@@ -1,0 +1,96 @@
+/*Modificado el 28/03/2019 a las 21:06*/
+body {
+	display: grid;
+	grid-template-areas: 
+		"header header header"
+		"nav section section"
+		"footer footer footer";
+	grid-template-rows: 50px 1fr 50px;
+	grid-template-columns: 275px 1fr 2%;
+	grid-gap: 5px;
+	height: 100vh;
+	margin: 0;
+	background-color: antiquewhite;
+}
+
+header, footer, article, nav, aside {
+	padding: 15px;
+	background-color: darkgrey;
+	text-align: justify;
+}
+
+h1 {
+	margin-top: 5px;
+	text-align: center;
+	font-size: 34px;
+}
+
+h2 {
+	text-align: center;
+	padding: 15px;
+	border: 15px solid darkgoldenrod;
+	background-color: #26619c;
+	font-size: 26px;
+}
+
+#header{
+	grid-area: header;
+	padding: 1px;
+	text-align: center;
+	background-color: darkred;
+}
+
+#nav{	
+	position:static;
+	grid-area: nav;	
+	height: max-content;
+	background-color: grey;
+	text-align: left;
+	width: 240px;
+	margin-top: 5px;
+}
+
+#nav a{
+	display: block;
+	color: #f2f2f2;
+  padding: 6px 8px;
+  text-decoration: none;
+  font-size: 15px;
+	text-align: left;
+	background-color: darkred;
+  color: white;
+}
+
+#nav a: hover {
+  background-color: darkgoldenrod;
+  color: black;
+}
+
+#section{
+	grid-area: main;
+	grid-template-columns: 100%;
+	grid-template-rows: 100%;
+	margin-top: 0px;
+}
+
+#section article{
+	padding: 15px;
+	border: 15px solid darkred;
+	margin-top: 5px;
+}
+
+#section img {
+	display: block;
+	margin: inherit;
+	width: 40%;
+	height: 40%;
+
+}
+
+#botontop{
+	visibility: visible;
+}
+
+#footer{
+	grid-area: footer;
+}
